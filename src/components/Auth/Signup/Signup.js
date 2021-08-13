@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Custom/Button'
 import InputBox from '../Custom/InputBox'
 
 function Signup() {
@@ -8,7 +9,7 @@ function Signup() {
             {/* signupBox */}
             <div className="signupBox">
                 <div className="left__component">
-                    <img src="" alt="svg icon" />
+                    {/* <img src="" alt="svg icon" /> */}
                 </div>
                 <div className="right__component">
                     <div className="right__top">
@@ -20,6 +21,7 @@ function Signup() {
                     <InputBox types="text" placeholders="User"/>
                     <InputBox types="text" placeholders="Enter Username"/>
                     <InputBox types="text" placeholders="Enter Age"/>
+                    <Button type = "submit"/>
                 </div>
             </div>
         </div>

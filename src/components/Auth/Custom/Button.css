@@ -1,0 +1,18 @@
+.button__Component > button{
+    border:none;
+    padding-right:80px;
+    padding-left:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+.button__Component{
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+}
