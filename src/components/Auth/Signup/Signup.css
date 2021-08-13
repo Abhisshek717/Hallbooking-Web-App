@@ -1,0 +1,9 @@
+.right__bottom{
+    display: flex;
+   
+    margin-left:20px;
+    margin-right:20px;
+}
+.right__bottom > p{
+    margin-right:15px;
+}
