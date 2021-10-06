@@ -22,11 +22,12 @@ function Signup() {
                         <InputBox types="text" placeholders="User"/>
                         <InputBox types="text" placeholders="Enter Username"/>
                         <InputBox types="text" placeholders="Enter Age"/>
-                        <Button type = "submit"/>
+                        <Button type = "submit" />
                     </div>
                     <div className="right__bottom">
                         <p>Go To Login</p>
                         <a href="">Click Here</a>
+                    
                     </div>
                 </div>
             </div>

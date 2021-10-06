@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items: center;
+    background-color:rgb(255, 173, 255);
+    color:white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.left__Navbar{
+    display:flex;
+    margin-left:250px;   
+}
+.left__Navbar > p{
+    margin-right:20px;
+}

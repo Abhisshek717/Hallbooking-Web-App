@@ -1,10 +1,17 @@
 import './App.css';
-import Signup from './components/Auth/Signup/Signup';
+import UserDashboard from './components/UserSide/UserDashboard/UserDashboard';
+import UserNavbar from './components/UserSide/UserNavbar/UserNavbar';
+//import Product from './Product';
+// useState hook
+//import { useState } from 'react';
+//import Signup from './components/Auth/Signup/Signup';
+//import Login from './components/Auth/Login/Login';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-         <Signup/>
+        <UserNavbar/>
+        <UserDashboard/>
     </div>
   );
 }
