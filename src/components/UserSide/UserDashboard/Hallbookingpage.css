@@ -1,0 +1,13 @@
+.hallbookingpage{
+   display:flex;
+}
+.left{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:10px;
+    width:50%;
+}
+.left > img{
+    width:100px;
+    height:100px;
+}

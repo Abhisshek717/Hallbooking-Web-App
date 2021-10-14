@@ -1,5 +1,7 @@
 import './App.css';
-import UserDashboard from './components/UserSide/UserDashboard/UserDashboard';
+import CompanyDetails from './components/UserSide/UserDashboard/CompanyDetails';
+import HallbookingPage from './components/UserSide/UserDashboard/HallbookingPage';
+//import UserDashboard from './components/UserSide/UserDashboard/UserDashboard';
 import UserNavbar from './components/UserSide/UserNavbar/UserNavbar';
 //import Product from './Product';
 // useState hook
@@ -10,8 +12,8 @@ import UserNavbar from './components/UserSide/UserNavbar/UserNavbar';
 const App = () => {
   return (
     <div className="App">
-        <UserNavbar/>
-        <UserDashboard/>
+      <UserNavbar/>
+       <HallbookingPage/>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.companyName{
+    border:1px solid black;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+}
+.companyName > h1,p{
+   margin-top:10px;
+}
